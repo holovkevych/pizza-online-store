@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom'
 
 import { Header } from './components'
 
-export default function App() {
+const App = () => {
   
   return (
     <div className="wrapper">
@@ -15,3 +15,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App

@@ -1,6 +1,10 @@
 import React from 'react'
+import { useSelector, useDispatch } from 'react-redux'
 
-//import
+import { setCategory, setSortBy } from '../redux/actions/filters'
+import { fetchPizzas } from '../redux/actions/pizzas' 
+import { addPizzaToCart } from '../redux/actions/cart' 
+import { Categories, SortPopup, PizzaBlock, PizzaLoadingBlock } from '../components'
 
 const categoryNames = ['Мясні', 'Вегетаріанські', 'Гриль', 'Гострі']
 const sortItems = [

@@ -1,12 +1,12 @@
 import React from 'react'
-//import { useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
 import Button from './Button'
 import logoSvg from '../assets/img/pizza-logo.svg'
 
-export default function Header() {
-	//const [] = useSelector
+const Header = () => {
+	//const { totalPrice, totalCount } = useSelector(({ cart }) => cart)
 
 	return (
 			<header className="header">
@@ -58,3 +58,5 @@ export default function Header() {
 			</header>
 		)
 }
+
+export default Header

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import classNames from 'classnames'
 import Button from '../Button'
 
-const PizzaBlock ({ 
+const PizzaBlock = ({ 
 		id, 
 		name, 
 		imageUrl, 
@@ -14,7 +14,7 @@ const PizzaBlock ({
 		rating, 
 		onClickAndPizza, 
 		addedCount 
-	}) => {
+	}) => { 
 	const availableTypes = ["тонке", "традиційне"]
 	const availableSizes = [26, 30, 40]
 	const [activeType, setActiveType] = useState(types[0])
@@ -107,10 +107,10 @@ const PizzaBlock ({
 		)
 }
 
-PizzaBlock.PropTypes = {
+PizzaBlock.propTypes = {
 	name: PropTypes.string,
 	imageUrl: PropTypes.string,
-	price: PropTypes.name,
+	price: PropTypes.number,
 	types: PropTypes.arrayOf(PropTypes.number),
 	sizes: PropTypes.arrayOf(PropTypes.number),
 	onClickAndPizza: PropTypes.func,
