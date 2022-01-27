@@ -15,8 +15,8 @@ const Header = () => {
           <div className='header--logo'>
             <img width={38} src={logoSvg} alt='Pizza logo' />
             <div>
-              <h1>Little Italy</h1>
-              <p>Non saprai di non essere in Italia</p>
+              <h1>Little Italia</h1>
+              <p>Ви не дізнаєтеся, що ви не в Італії</p>
             </div>
           </div>
         </Link>

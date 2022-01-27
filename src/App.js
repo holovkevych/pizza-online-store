@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Header } from './components';
-import { Home, Cart } from './pages';
+import { Header, Footer } from './components';
+import { Home, Cart, AcceptedOrder } from './pages';
 import { Route } from 'react-router-dom';
 
 export default function App() { 
@@ -12,7 +12,9 @@ export default function App() {
       <div className="content">
           <Route path="/" component={Home} exact />
           <Route path="/cart" component={Cart} exact />
+          <Route path="/accepted" component={AcceptedOrder} exact />
       </div>
+      <Footer />
     </div>
   );
 }

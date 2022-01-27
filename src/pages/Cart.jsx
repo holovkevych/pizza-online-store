@@ -33,7 +33,9 @@ const Cart = () => {
 	}
 
 	const onClickOrder = () => {
-    window.confirm('Підтверджуєте оплату?')
+    if (window.confirm('Підтверджуєте оплату?')) {
+      dispatch(clearCart())
+    }
 	}
 
 	return (
@@ -87,9 +89,11 @@ const Cart = () => {
                   </svg>
                   <span>Повернутися назад</span>
                 </Link>
+                <Link to="/accepted">
                   <Button onClick={onClickOrder} className="pay-btn">
                     <span>Оплатити зараз</span>
-                </Button>
+                  </Button>
+                </Link>
                 </div> 
               </div>
             </div>
