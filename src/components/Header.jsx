@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 
 import Button from './Button'
-import logoSvg from '../assets/img/pizza-logo.svg'
+import logoSvg from '../assets/img/italian.png'
 
 const Header = () => {
   const { totalPrice, totalCount } = useSelector(({ cart }) => cart)
@@ -13,7 +13,7 @@ const Header = () => {
       <div className='container'>
         <Link to='/'>
           <div className='header--logo'>
-            <img width={38} src={logoSvg} alt='Pizza logo' />
+            <img width={45} src={logoSvg} alt='Pizza logo' />
             <div>
               <h1>Little Italia</h1>
               <p>Ви не дізнаєтеся, що ви не в Італії</p>

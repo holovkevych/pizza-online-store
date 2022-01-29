@@ -32,12 +32,14 @@ export default function PizzaBlock({id, name, imageUrl, price, types, sizes, rat
 
   return (
       <div className="pizza-block">
-        <img
-          className="pizza-block--image"
-          src={imageUrl}
-          alt={name} />
+        <div className="pizza-block--image-container">
+          <img
+            className="pizza-block--image"
+            src={imageUrl}
+            alt={name} />
+        </div>
         <h4 className="pizza-block--title">{name}</h4>
-        <i className="pizza-block--rating">Рейтинг: {rating}</i>
+        <i className="pizza-block--rating">Рейтинг: <b> {rating} </b> / 5</i>
         <div className="pizza-block--selector">
           <ul>
             {availableTypes.map((type, index) => (
@@ -68,11 +70,7 @@ export default function PizzaBlock({id, name, imageUrl, price, types, sizes, rat
         </div>
         <div className="pizza-block--bottom">
           <div className="pizza-block--price">
-            { availableSizes[activeSize] === 30 
-              ? Math.ceil(price * 1.25) 
-              : (availableSizes[activeSize] === 40 
-                ? Math.ceil(price * 1.5) 
-                : price)} ₴
+            {price} ₴
           </div>
           <Button 
             onClick={onAddPizza} 

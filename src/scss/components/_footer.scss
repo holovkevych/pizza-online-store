@@ -1,9 +1,10 @@
 @import '../variables';
 
 .footer {
-  border-bottom: 1px solid $gray-line;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   padding: 25px 0;
-  background-color: #c08457;
+  background-color: #735441;
 
   .container {
     display: flex;

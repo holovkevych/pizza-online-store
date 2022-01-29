@@ -1,12 +1,13 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { Link } from 'react-router-dom'
+import { Link, useHistory } from 'react-router-dom'
 
 import { clearCart, removeCartItem, minusCartItem, plusCartItem } from '../redux/actions/cart'
 import { CartItem, Button } from '../components'
 import emptyCartImg from '../assets/img/empty-cart.png'
 
 const Cart = () => {
+  const history = useHistory()
 	const dispatch = useDispatch()
 	const { totalPrice, totalCount, items } = useSelector(({ cart }) => cart)
 
@@ -35,6 +36,7 @@ const Cart = () => {
 	const onClickOrder = () => {
     if (window.confirm('Підтверджуєте оплату?')) {
       dispatch(clearCart())
+      history.push("/accepted")
     }
 	}
 
@@ -89,11 +91,9 @@ const Cart = () => {
                   </svg>
                   <span>Повернутися назад</span>
                 </Link>
-                <Link to="/accepted">
-                  <Button onClick={onClickOrder} className="pay-btn">
-                    <span>Оплатити зараз</span>
-                  </Button>
-                </Link>
+                <Button onClick={onClickOrder} className="pay-btn">
+                  <span>Оплатити зараз</span>
+                </Button>
                 </div> 
               </div>
             </div>

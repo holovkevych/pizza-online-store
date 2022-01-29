@@ -14,7 +14,9 @@
     display: flex;
 
     li {
-      background-color: #f9f9f9;
+      /*background-color: #f9f9f9;*/
+      background-color: #F2DFD3;
+      color: $orange;
       padding: 13px 30px;
       border-radius: 30px;
       margin-right: 10px;
@@ -24,16 +26,18 @@
       @include noselect();
 
       &:hover {
-        background-color: darken(#f9f9f9, 2%);
+        /*background-color: darken(#f9f9f9, 2%);*/
+        background-color: darken(#F2DFD3, 2%);
       }
 
       &:active {
-        background-color: darken(#f9f9f9, 5%);
+        background-color: darken(#F2DFD3, 5%);
       }
 
       &.active {
-        background-color: #282828;
-        color: #fff;
+        /*background-color: #282828; */
+        background-color: #735441; 
+        color: #F2DFD3;
       }
     }
   }

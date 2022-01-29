@@ -18,21 +18,35 @@
   }
 
   &--image {
-    width: 260px;
+    /*width: 260px;*/
+    width: 100%;
+
+    &:hover {
+        transform: translateY(-10px);
+    };
   }
 
   &--title {
     font-size: 20px;
     font-weight: 900;
     letter-spacing: 1%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: $orange;
+  }
+
+  &--rating {
+    letter-spacing: 1%;
+    color: $orange;
   }
 
   &--selector {
     display: flex;
-    background-color: #f3f3f3;
+    /*background-color: #f3f3f3;*/
+    background-color: #F2DFD3;
+    color: $orange;
     border-radius: 10px;
     flex-direction: column;
+    margin-top: 10px;
     padding: 6px;
 
     ul {

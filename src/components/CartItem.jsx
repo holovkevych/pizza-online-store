@@ -79,12 +79,7 @@ const CartItem = ({
       </div>
       <div className='cart--item-price'>
         <b>
-          {size === 30
-            ? Math.ceil(totalPrice * 1.25)
-            : size === 40
-            ? Math.ceil(totalPrice * 1.5)
-            : totalPrice}{' '}
-          ₴
+          {totalPrice} ₴
         </b>
       </div>
       <div className='cart--item-remove'>
