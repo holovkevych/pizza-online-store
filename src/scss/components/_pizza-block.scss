@@ -18,7 +18,6 @@
   }
 
   &--image {
-    /*width: 260px;*/
     width: 100%;
 
     &:hover {
@@ -31,19 +30,18 @@
     font-weight: 900;
     letter-spacing: 1%;
     margin-bottom: 10px;
-    color: $orange;
+    color: $brown;
   }
 
   &--rating {
     letter-spacing: 1%;
-    color: $orange;
+    color: $brown;
   }
 
   &--selector {
     display: flex;
-    /*background-color: #f3f3f3;*/
     background-color: #F2DFD3;
-    color: $orange;
+    color: $brown;
     border-radius: 10px;
     flex-direction: column;
     margin-top: 10px;

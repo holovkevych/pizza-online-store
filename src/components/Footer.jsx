@@ -3,7 +3,6 @@ import React from 'react'
 import fb from '../assets/img/fb.svg'
 import instagram from '../assets/img/instagram.svg'
 
-
 const Footer = () => {
 
   return (
