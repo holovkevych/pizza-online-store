@@ -10,9 +10,9 @@ export default function App() {
     <div className="wrapper">
       <Header />
       <div className="content">
-          <Route path="/" component={Home} exact />
-          <Route path="/cart" component={Cart} exact />
-          <Route path="/accepted" component={AcceptedOrder} exact />
+          <Route path="" component={Home} exact />
+          <Route path="cart" component={Cart} exact />
+          <Route path="accepted" component={AcceptedOrder} exact />
       </div>
       <Footer />
     </div>

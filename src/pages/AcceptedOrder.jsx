@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { CartItem, Button } from '../components'
+//import { CartItem, Button } from '../components'
 import acceptedImg from '../assets/img/accepted.png'
 
 
