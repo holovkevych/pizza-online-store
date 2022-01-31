@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pizza-online-store/static/css/main.09c8150a.css",
-    "main.js": "/pizza-online-store/static/js/main.20dbb42d.js",
+    "main.js": "/pizza-online-store/static/js/main.7a7cc84a.js",
     "static/media/italian.png": "/pizza-online-store/static/media/italian.f53ee75a6afb7cefb74a.png",
     "static/media/accepted.png": "/pizza-online-store/static/media/accepted.2edc1b0a567175a9dd72.png",
     "static/media/ProximaNova-Regular.eot": "/pizza-online-store/static/media/ProximaNova-Regular.d97f8f32c098b28c3ab0.eot",
@@ -21,10 +21,10 @@
     "static/media/fb.svg": "/pizza-online-store/static/media/fb.8248ae98770706b0a0e2ab1e2396ce04.svg",
     "index.html": "/pizza-online-store/index.html",
     "main.09c8150a.css.map": "/pizza-online-store/static/css/main.09c8150a.css.map",
-    "main.20dbb42d.js.map": "/pizza-online-store/static/js/main.20dbb42d.js.map"
+    "main.7a7cc84a.js.map": "/pizza-online-store/static/js/main.7a7cc84a.js.map"
   },
   "entrypoints": [
     "static/css/main.09c8150a.css",
-    "static/js/main.20dbb42d.js"
+    "static/js/main.7a7cc84a.js"
   ]
 }
