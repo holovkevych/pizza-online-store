@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/pizza-online-store/static/css/main.09c8150a.css",
+    "main.js": "/pizza-online-store/static/js/main.fa7901b0.js",
+    "static/media/italian.png": "/pizza-online-store/static/media/italian.f53ee75a6afb7cefb74a.png",
+    "static/media/accepted.png": "/pizza-online-store/static/media/accepted.2edc1b0a567175a9dd72.png",
+    "static/media/ProximaNova-Regular.eot": "/pizza-online-store/static/media/ProximaNova-Regular.d97f8f32c098b28c3ab0.eot",
+    "static/media/ProximaNova-Regular.ttf": "/pizza-online-store/static/media/ProximaNova-Regular.b078618b41b9b6629ea0.ttf",
+    "static/media/ProximaNova-Bold.eot": "/pizza-online-store/static/media/ProximaNova-Bold.787088b281e017f8c449.eot",
+    "static/media/ProximaNova-Extrabld.eot": "/pizza-online-store/static/media/ProximaNova-Extrabld.b9fcd9fbe4d0b5e73cbd.eot",
+    "static/media/ProximaNova-Bold.ttf": "/pizza-online-store/static/media/ProximaNova-Bold.7722451a8c88b6100185.ttf",
+    "static/media/ProximaNova-Extrabld.ttf": "/pizza-online-store/static/media/ProximaNova-Extrabld.026a945d32b05c6c8710.ttf",
+    "static/media/ProximaNova-Black.eot": "/pizza-online-store/static/media/ProximaNova-Black.9a114cea74aac9cc06cc.eot",
+    "static/media/ProximaNova-Black.ttf": "/pizza-online-store/static/media/ProximaNova-Black.5335144c30bdc79a2d6d.ttf",
+    "static/media/ProximaNova-Regular.woff": "/pizza-online-store/static/media/ProximaNova-Regular.99528640efded3e12591.woff",
+    "static/media/ProximaNova-Bold.woff": "/pizza-online-store/static/media/ProximaNova-Bold.1f267da183b3d4fe3d5b.woff",
+    "static/media/ProximaNova-Extrabld.woff": "/pizza-online-store/static/media/ProximaNova-Extrabld.64f095e95e4018946cb1.woff",
+    "static/media/ProximaNova-Black.woff": "/pizza-online-store/static/media/ProximaNova-Black.131eab64b8a971a4fc73.woff",
+    "static/media/empty-cart.png": "/pizza-online-store/static/media/empty-cart.db905d1f4b063162f25b.png",
+    "static/media/instagram.svg": "/pizza-online-store/static/media/instagram.3aded7ce4964333bb0ad391093fd8801.svg",
+    "static/media/fb.svg": "/pizza-online-store/static/media/fb.8248ae98770706b0a0e2ab1e2396ce04.svg",
+    "index.html": "/pizza-online-store/index.html",
+    "main.09c8150a.css.map": "/pizza-online-store/static/css/main.09c8150a.css.map",
+    "main.fa7901b0.js.map": "/pizza-online-store/static/js/main.fa7901b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09c8150a.css",
+    "static/js/main.fa7901b0.js"
+  ]
+}
